@@ -1,0 +1,386 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "To check that the application is InValid bill pay  due to invalid accountno",
+        "description": "",
+        "id": "parabank-website;to-check-that-the-application-is-invalid-bill-pay--due-to-invalid-accountno",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7609424524,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user launch the chrome browser",
+            "match": {
+              "location": "ParaBillpayinvalidacntnoChrome.the_user_launch_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8437345709,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user open the Parabank Login Page",
+            "match": {
+              "location": "ParaBillpayinvalidacntnoChrome.the_user_open_the_Parabank_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7054022761,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user login to the account",
+            "match": {
+              "location": "ParaBillpayinvalidacntnoChrome.the_user_login_to_the_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6720442122,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user fills the details of the bill pay",
+            "match": {
+              "location": "ParaBillpayinvalidacntnoChrome.the_user_fills_the_details_of_the_bill_pay()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3470657293,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "submit the bill pay and close the browser",
+            "match": {
+              "location": "ParaBillpayinvalidacntnoChrome.submit_the_bill_pay_and_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tc_01"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "To check that the application is InValid bill pay when mandatoryfield is left blank",
+        "description": "",
+        "id": "parabank-website;to-check-that-the-application-is-invalid-bill-pay-when-mandatoryfield-is-left-blank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4048755526,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user launch the chrome browser",
+            "match": {
+              "location": "ParaBillpaymndtrylb.user_launch_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5082442957,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user open the Parabank Login Page",
+            "match": {
+              "location": "ParaBillpaymndtrylb.user_open_the_Parabank_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5301795904,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user login to the account",
+            "match": {
+              "location": "ParaBillpaymndtrylb.user_login_to_the_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7575469259,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user left one of the mandatoryfield of the bill pay",
+            "match": {
+              "location": "ParaBillpaymndtrylb.user_left_one_of_the_mandatoryfield_of_the_bill_pay()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6377714567,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Submit the bill pay and close the browser",
+            "match": {
+              "location": "ParaBillpaymndtrylb.submit_the_bill_pay_and_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@tc_02"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "To check that the application is InValid bill pay due to invalid amount",
+        "description": "",
+        "id": "parabank-website;to-check-that-the-application-is-invalid-bill-pay-due-to-invalid-amount",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4136375299,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user launches  chrome browser",
+            "match": {
+              "location": "ParaBillpayinvalidamnt.user_launches_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6840619830,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User open the Parabank Login",
+            "match": {
+              "location": "ParaBillpayinvalidamnt.user_open_the_Parabank_Login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7853299414,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the User login to the account",
+            "match": {
+              "location": "ParaBillpayinvalidamnt.the_User_login_to_the_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7066271758,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User gave invalid amount",
+            "match": {
+              "location": "ParaBillpayinvalidamnt.user_gave_invalid_amount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6348030469,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Submit bill pay and close  browser",
+            "match": {
+              "location": "ParaBillpayinvalidamnt.submit_bill_pay_and_close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@tc_03"
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "To check that the application is InValid bill pay because phone no field is left blank",
+        "description": "",
+        "id": "parabank-website;to-check-that-the-application-is-invalid-bill-pay-because-phone-no-field-is-left-blank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7116396755,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user Launch the Chrome browser",
+            "match": {
+              "location": "ParaBillpayponenolb.user_Launch_the_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7985427984,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User open the Parabank Login Page",
+            "match": {
+              "location": "ParaBillpayponenolb.user_open_the_Parabank_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7862916016,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User login to the account",
+            "match": {
+              "location": "ParaBillpayponenolb.user_login_to_the_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7562299461,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User left phone no field of the bill pay",
+            "match": {
+              "location": "ParaBillpayponenolb.user_left_phone_no_field_of_the_bill_pay()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7760017008,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Submit bill pay and close the browser",
+            "match": {
+              "location": "ParaBillpayponenolb.submit_bill_pay_and_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 32,
+            "name": "@tc_04"
+          }
+        ]
+      },
+      {
+        "line": 42,
+        "name": "To check that the application is InValid mssgtocstmr because one field is left blank",
+        "description": "",
+        "id": "parabank-website;to-check-that-the-application-is-invalid-mssgtocstmr-because-one-field-is-left-blank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6031611719,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "the user launchs the chrome browser",
+            "match": {
+              "location": "ParaMssgtocstmrlb.the_user_launchs_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8892468152,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the user open the Parabank HomePage",
+            "match": {
+              "location": "ParaMssgtocstmrlb.the_user_open_the_Parabank_HomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6507321687,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "the user opens the msg and left the details",
+            "match": {
+              "location": "ParaMssgtocstmrlb.the_user_opens_the_msg_and_left_the_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8419070939,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "send the message to customer care",
+            "match": {
+              "location": "ParaMssgtocstmrlb.send_the_message_to_customer_care()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 41,
+            "name": "@tc_05"
+          }
+        ]
+      }
+    ],
+    "name": "ParaBank Website",
+    "description": "",
+    "id": "parabank-website",
+    "keyword": "Feature",
+    "uri": "parabank.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Invalid_Billpay_And_Messagetocustomer"
+      }
+    ]
+  }
+]
